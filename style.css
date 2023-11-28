@@ -1,0 +1,447 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Loader Starts */
+.loader-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #143003;
+}
+
+.loader{
+    border: 8px solid grey;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+/* Loader Ends */
+
+/* Resume Heading Starts */
+.main-container h1 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: #143003;
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* Resume Heading Ends */
+
+/* Photo & Profile Starts */
+.profile {
+    background: linear-gradient(120deg, #fff, #87e44d);
+    border: 3px solid #143003;
+    border-top: none;
+    margin: 5px 5%;
+}
+
+.profile h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #143003;
+    color: white;
+    background: #143003;
+}
+
+.info-box {
+    height: 154px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin:5px 5%;
+}
+
+.info-box .myphoto {
+    padding-left: 100px;
+}
+
+.info-box .myphoto img {
+    border-radius: 60%;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.info-box .myinfo {
+    top: 20px;
+    padding-bottom: 0%;
+    padding-left: 400px;
+}
+
+.info-box .myinfo a {
+    padding-top: 50px;
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-box .myinfo a i {
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+}
+
+.info-box .myinfo a span {
+    justify-content: space-between;
+}
+
+
+/* Photo & Profile Ends */
+
+/* Details starts */
+.details {
+    margin: 5px 5%;
+    border: 3px solid #143003;
+    background: linear-gradient(120deg, #fff, #87e44d);
+}
+
+/* Career Starts */
+.details .career h2 {
+    background: linear-gradient(120deg, #fff, #87e44d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #143003;
+}
+
+.details .career p {
+    top: 0;
+    background: linear-gradient(120deg, #fff, #87e44d);
+    color: brown;
+    font-size: 20px;
+    line-height: 1.2em;
+    display: flex;
+}
+
+/* Career Ends */
+
+/* Education Starts */
+
+
+.details .educational h2 {
+    background: linear-gradient(120deg, #fff, #87e44d);
+    border-bottom: 3px solid #143003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #143003;
+}
+
+.details .educational ol li {
+    list-style: square;
+    color: brown;
+    font-size: 20px;
+    line-height: 1.2em;
+    justify-content: space-between;
+}
+
+/* Education Ends */
+
+/* Technical Skills Starts */
+.details .tech-skills h2 {
+    border-bottom: 3px solid #143003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #143003;
+}
+
+.details .tech-skills ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .tech-skills ol .design h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.details .tech-skills ol .design {
+    padding-bottom: 42px;
+}
+
+.details .tech-skills ol .ft {
+    padding-bottom: 22px;
+    list-style: square;
+}
+
+.details .tech-skills ol .ft h3 {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 30px;
+    text-decoration-line: underline;
+}
+
+.details .tech-skills ol .bt h3 {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.details .tech-skills ol .bt {
+    padding-top: 23px;
+}
+
+.details .tech-skills ol ul li {
+    list-style: square;
+    color: brown;
+    font-size: 20px;
+}
+
+/* Technical Skills Ends */
+
+/* Certification & Internship start */
+.details .certification h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #143003;
+    color: white;
+    background: #143003;
+}
+
+.details .certification ol {
+    list-style: square;
+    font-size: 18px;
+    color: brown;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .certification ol li {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+/* Certification & Internship Ends */
+
+/* Project Starts */
+.project h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #143003;
+    background-color: #143003;
+    color: white;
+}
+
+.project .minor h3 {
+    text-align: center;
+}
+
+.project .minor .text {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background: brown;
+    color: white;
+    font-size: 25px;
+    border: 3px solid #143003;
+    border-style: dashed;
+}
+
+.project .minor {
+    border-top: 2px solid #143003;
+    border-top-style: dashed;
+
+
+}
+
+.project .minor {
+    list-style: square;
+    color: brown;
+}
+
+.project .minor .proj h4 {
+    color: brown;
+    font-size: 23px;
+    display: inline-block;
+    border-bottom: medium solid #143003;
+    border-right: medium solid #143003;
+    border-style: groove;
+}
+
+.project .minor .proj .linkDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .minor .proj .linkDate a {
+    flex: 4;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.project .minor .proj .linkDate a:hover {
+    flex: 4;
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+}
+
+.project .minor .proj .linkDate span {
+    text-decoration: none;
+    flex: 0.9;
+    color: black;
+    font-size: 18px;
+}
+
+.project .minor .proj ul {
+    padding-top: 20px;
+}
+
+.project .minor .proj ul li {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.project .minor .proj ul .last {
+    border-bottom: 2px solid #143003;
+    border-bottom-style: dashed;
+}
+
+.project .minor .proj .linkDate .prof {
+    flex: 4;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Project Ends */
+
+/* Extra-Curricular Starts */
+.extra-curricular h2{
+    color: white;
+    background-color: #143003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extra-curricular ol li{
+    color: brown;
+    list-style: square;
+    font-size: 20px;
+}
+/* Extra-Curricular Ends */
+
+/* Strengths & Hobbies Starts */
+.strength-hobbies h2{
+    color: white;
+    background: #143003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sh{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sh .strength  h3, .sh .hobbies h3{
+    text-align: center;
+    border-bottom: 2px solid #143003;
+    font-size: 23px;
+    display: inline-block;
+}
+.sh .strength .s, .sh .hobbies .s{
+    color: brown;
+    list-style: square;
+    font-size: 20px;
+}
+/* Strengths & Hobbies Ends */
+
+/* Personal Details Starts */
+.personal h2{
+    color: white;
+    background: #143003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personal .me .med b{
+    color: brown;
+    font-size: 20px;
+}
+.personal ul li{
+    list-style: square;
+    font-size: 20px;
+}
+/* Personal Details Ends */
+.declaration h2{
+    color: white;
+    background: #143003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.declaration p{
+font-size: 20px;
+color: brown;
+}
+
+@media only screen and (max-width:600px) {
+    .profile{
+        overflow-x: hidden;
+        margin: 0;
+    }
+    .info-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .info-box .myphoto {
+        padding-left: 0;
+    }
+    .myinfo{
+        justify-content: center;
+    }
+    .myinfo a{
+        padding-right: 435px;
+        justify-content: center;
+    }
+    .details{
+        margin: 0;
+    }
+    .tech-skills ol{
+        display: flex;
+        flex-direction: column;
+    }
+}
